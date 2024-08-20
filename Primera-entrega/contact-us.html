@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.css">
+    
+    <title>Plantilla n2</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="">
+                <p class="logo-first">47°</p>
+                <p class="logo-second">café</p>
+            </a>
+        </div>
+        
+        <input type="checkbox" id="check">
+        <label for="check" class="show-menu">&#8801</label>
+        
+        <nav class="menu">
+            <a href="./index.html#banner">Inicio</a>
+            <a href="./index.html#about-us">Sobre Nosotros</a>
+            <a href="./index.html#menu">Menú</a>
+            <a href="">Contáctanos</a>
+            <label for="check" class="hidden-menu">&#215</label>
+        </nav>
+    </header>
+    
+        <form id="contactForm">
+            <h2>Contáctanos</h2>
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+            <p id="responseMessage"></p>
+        </form>
+
+    <footer>
+        <div>
+            <h2>Unite a nosotros</h2>
+            <p>Envianos un mail para unirtenos</p>
+            <p>ejemplo@ejemplo.com</p>
+        </div>
+        <div>
+            <h2>Contáctanos</h2>
+            <p>+54 123-45678</p>
+            <p>Av. Fray A. alcalde 10,</p>
+
+            <p>44100 Guad., Jal., Mx</p>
+        </div>
+        <div>
+            <h2>Nuestras Redes</h2>
+            <a href="">
+                <img src="img/icons8-instagram-100.png" alt="">
+                <p>Instragram</p>
+            </a>
+            <a href="">
+                <img src="img/icons8-facebook-nuevo-100.png" alt="">
+                <p>Facebook</p>
+            </a>
+            <a href="">
+                <img src="img/icons8-twitter-100.png" alt="">
+                <p>Twitter</p>
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

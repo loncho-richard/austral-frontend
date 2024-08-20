@@ -1,0 +1,88 @@
+body {
+    background: url('https://wwwimage-intl.pplusstatic.com/thumbnails/photos/w1920-q80/cbs_page_attribute/upsell_latam_hero1_weblandscape_2560x1280_051324.jpg');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100svh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav div a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    max-width: 450px;
+    font-size: 46px;
+}
+
+header {
+    margin-bottom: 36px;
+}
+
+header h2 {
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+header p {
+    color: white;
+}
+
+.nav-left p {
+    margin: 12px;
+    color: gray;
+}
+
+.login {
+    border: none;
+    background: none;
+    margin: 12px;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+
+}
+
+.sign-up {
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    margin: 6px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.without-color {
+    background: none;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    margin: 6px;
+    font-size: 16px;
+}
+
+.botones {
+    margin-top: 40px;
+}
+
+#logo {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
